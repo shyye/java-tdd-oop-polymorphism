@@ -80,6 +80,8 @@ The Basket class must
 - Contain only one `add` method
 - Contain no more than 1 loop in the `getTotal` and `isInBasket` methods
 
+The tests are already passing. You must not change the existing tests (though you can add more if you like). The tests should still pass after implementing your changes.
+
 ## Next steps
 
 Now that you've learned about dependency injection and polymorphism, introduce these concepts into your Bob's Bagels OOP exercise. You will need to refactor your existing code and change your tests to accommodate these changes.
