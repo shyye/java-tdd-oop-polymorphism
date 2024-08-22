@@ -1,6 +1,8 @@
 package com.booleanuk.core;
 
-public class Book {
+import java.util.List;
+
+public class Book implements Product {
     String name;
     int price;
 
@@ -9,10 +11,12 @@ public class Book {
         this.price = price;
     }
 
+    @Override
     public int getPrice() {
         return this.price;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
